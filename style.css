@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.pane{
+  display: inline-block;
+  width: 49%;
+}
+.line > label{
+  line-height: 1.41em;
+}
+.line > input{
+  width: 100%;
+}

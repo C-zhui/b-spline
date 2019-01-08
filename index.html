@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/p5.js"></script>
+    <script src="js/addons/p5.dom.js"></script>
+    <script src="js/addons/p5.sound.js"></script>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pane" id="pane1">
+        <div class="line"> <label>节点坐标</label>
+            <input type="text" id="Ptext">
+        </div>
+        <div class="line"> <label>节点向量</label>
+            <input type="text" id="Ttext">
+        </div>
+        <div class="line"> <label>次数</label>
+            <input type="text" id="Ktext">
+        </div>
+        <div class="line">
+            <button id="change">变更</button>
+        </div>
+    </div>
+    <div class="pane" id="pane2"></div>
+    <script src="sketch.js"></script>
+
+</body>
+
+</html>
